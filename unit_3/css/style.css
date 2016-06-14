@@ -1,3 +1,11 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+  background-size: cover;
+  font-family: Helvetica;
+  text-align: left;
+  color: #FF1A31
+}
 h1 {
 	text-align: center;
 	font-family: Arial, sans-serif;
@@ -10,33 +18,30 @@ h3 {
 	font-style: italic;
 	color: #3B15C4
 }
-body {
-  background: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
-  background-size: cover;
-  font-family: Helvetica;
-  text-align: left;
-  color: #FF1A31
-}
 p {
   font-size: 18px;
   color: #3b1516
 }
-div {
-	width: 260px;
-	height: 260px;
-	border: 2px solid black;
-	display: inline-block;
-	margin: 20px;
+#services {
+	overflow:hidden;
 }
-
-#home {
-	background: url("http://png-4.findicons.com/files/icons/1254/flurry_system/256/search.png");
+.services-div {
+	width: 33.33%;
+	float: left;
+	padding: 2em;
+	text-align:center;
 }
-
-#web {
-	background: url("http://icons.iconarchive.com/icons/alecive/flatwoken/256/Apps-Home-icon.png");
+.services-div p {
+	text-align:left;
 }
-
-#search {
-	background: url("http://www.fancyicons.com/free-icons/106/leopard-iphone/png/256/sites_folder_256.png");
+.services-div img {
+	width:100%;
+}
+.cta {
+	display:inline-block;
+	text-decoration:none;
+	padding:1em 2em;
+	background:purple;
+	color:#fff;
+	margin-top:1em;
 }
