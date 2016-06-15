@@ -1,0 +1,46 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  background: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
+  background-size: cover;
+  font-family: 'Caveat Brush', cursive;
+  text-align: left;
+  color: #6200EA
+}
+h1 {
+	text-align: center;
+	font-family: 'Caveat Brush', cursive;
+	text-transform: uppercase;
+	color: #4A148C
+}
+h3 {
+	text-align: center;
+	font-family: 'Amita'
+	color: #3B15C4
+}
+p {
+  font-size: 18px;
+  color: #311B92
+}
+#services {
+	overflow:hidden;
+}
+.services-div {
+	width: 33.33%;
+	float: left;
+	padding: 2em;
+	text-align:center;
+}
+.services-div p {
+	text-align:left;
+}
+.services-div img {
+	width:100%;
+}
+.cta {
+	display:inline-block;
+	text-decoration:none;
+	padding:1em 2em;
+	background:purple;
+	color:#fff;
+	margin-top:1em;
+}
