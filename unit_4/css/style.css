@@ -1,7 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
-  background: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
-  background-size: cover;
+  background: red
   font-family: 'Caveat Brush', cursive;
   text-align: left;
   color: #6200EA

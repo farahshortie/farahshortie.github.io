@@ -1,21 +1,25 @@
+<style>
+@import 'https://fonts.googleapis.com/css?family=Amita|Caveat+Brush|Poller+One|Titan+One';
+</style>
+
+
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
   background: url("http://www.planwallpaper.com/static/images/Alien_Ink_2560X1600_Abstract_Background_1.jpg");
   background-size: cover;
-  font-family: Helvetica;
+  font-family: 'Caveat Brush', cursive;
   text-align: left;
   color: #FF1A31
 }
 h1 {
 	text-align: center;
-	font-family: Arial, sans-serif;
+	font-family: 'Caveat Brush', cursive;
 	text-transform: uppercase;
 	color: #3b1516
 }
 h3 {
 	text-align: center;
-	font-family: Helvetica;
-	font-style: italic;
+	font-family: 'Amita'
 	color: #3B15C4
 }
 p {
