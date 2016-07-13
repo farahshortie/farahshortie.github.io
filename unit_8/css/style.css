@@ -1,0 +1,101 @@
+<style>
+@import 'https://fonts.googleapis.com/css?family=Stalemate|Dawning+of+a+New+Day|Sail|Snowburst+One|Princess+Sofia';
+</style>
+
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+header {
+    background-color: #EE94B7;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+p {
+	text-align: left;
+	font-family: 'Princess Sofia', cursive;
+	font-weight: bold;
+	font-size: 5em;
+	color: #900C3F
+}
+
+nav {
+	background: #3F1208;
+}
+
+nav a {
+	display: block;
+	float: left;
+	padding: 2% 8%;
+	color: #ffffff;
+	text-decoration: none;
+	border-right: 0px solid #fff;
+}
+
+nav a:hover { 
+  background-color: #F33309; 
+}
+
+body {
+  font-family: 'Sail', cursive;
+  font-size: 25px;
+  text-align: left;
+}
+
+main {
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+.column {
+	float: left;
+	width: 50%;
+  	height: 49%;
+	padding: 1%;
+	margin: 0;
+}
+
+#column1 {
+  background-color: #ECEB46;
+}
+
+#column2 {
+  background-color: #7CEC46;
+}
+
+#column3 {
+  background-color: #46E4EC;
+}
+
+footer {
+	text-align: center;
+	clear: both;
+	padding: 1%
+	margin: 0 1%;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	background-size: cover;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media only screen and (max-width: 760px) {
+	#column1, #column2, #column3 {
+		float: none;
+		width: auto;
+
+nav a {
+	display: block;
+	text-align: center;
+	margin: 0;
+}
