@@ -1,12 +1,25 @@
 <style>
 @import 'https://fonts.googleapis.com/css?family=Stalemate|Dawning+of+a+New+Day|Sail|Snowburst+One|Princess+Sofia';
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 </style>
 
 
 * { margin:0; padding:0; box-sizing:border-box; }
 
 header {
-    background-color: #EE94B7;
+    background-color: #ffffff;
+    border: 0px black solid;
+    padding: 20px;
+}
+
+body {
+  font-family: 'Open Sans', s;
+  font-size: 20px;
+  text-align: left;
+}
+
+main {
+	background-color: #F7CFA2;
     border: 1px black solid;
     padding: 20px;
 }
@@ -16,11 +29,11 @@ p {
 	font-family: 'Princess Sofia', cursive;
 	font-weight: bold;
 	font-size: 5em;
-	color: #900C3F
+	color: #F02E0F
 }
 
 nav {
-	background: #3F1208;
+	background: #0ADFF5;
 }
 
 nav a {
@@ -36,16 +49,9 @@ nav a:hover {
   background-color: #F33309; 
 }
 
-body {
-  font-family: 'Sail', cursive;
-  font-size: 25px;
-  text-align: left;
-}
-
-main {
-	background-color: #E89C6C;
-    border: 1px black solid;
-    padding: 20px;
+.info {
+	background-color: #A2F7EB;
+    border: 2px black solid;
 }
 
 .column {
@@ -54,6 +60,13 @@ main {
   	height: 49%;
 	padding: 1%;
 	margin: 0;
+}
+
+#frames {
+	background-color: #F7CFA2;
+	padding-top: 6%;
+	padding-left: 6%;
+	border: 1px black solid;
 }
 
 #column1 {
@@ -73,11 +86,6 @@ footer {
 	clear: both;
 	padding: 1%
 	margin: 0 1%;
-}
-
-.wrapper {
-	background-color: #ffffff;
-	background-size: cover;
 }
 
 .clearfix:after {
