@@ -49,10 +49,6 @@ nav a:hover {
   background-color: #F33309; 
 }
 
-img {
-	max-width: 100%;
-}
-
 .info {
 	background-color: #A2F7EB;
     border: 2px black solid;
@@ -101,21 +97,13 @@ footer {
   height: 0;
 }
 
-
 @media only screen and (max-width: 760px) {
 	#column1, #column2, #column3 {
 		float: none;
 		width: auto;
-	}
 
-	nav a {
-		display: block;
-		text-align: center;
-		margin: 0;
-		float:none;
-	}
-
-
+nav a {
+	display: block;
+	text-align: center;
+	margin: 0;
 }
-
-
